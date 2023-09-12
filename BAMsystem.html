@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bank Account Simulation</title>
+</head>
+<body>
+  <h1>Bank Account Manager</h1>
+
+  <label for="action">Choose an action:</label>
+  <select id="action">
+    <option value="deposit">Deposit</option>
+    <option value="withdraw">Withdraw</option>
+    <option value="balance">Check Balance</option>
+  </select>
+
+  <label for="amount">Amount:</label>
+  <input type="number" id="amount">
+
+  <button onclick="performAction()">Execute</button>
+
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
